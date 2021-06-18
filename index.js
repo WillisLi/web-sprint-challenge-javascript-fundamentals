@@ -113,9 +113,9 @@ const zooAnimals = [
     * The consume function should return the invocation of cb, passing a and b into cb as arguments
   */
 
-  function consume(a, b, cb){
-      return cb(a, b);
-  }
+function consume(a, b, cb){
+    return cb(a, b);
+}
  
   
   /* 🦁🦁🦁 Step 2: Create several functions to callback with consume(); 🦁🦁🦁 */
@@ -129,13 +129,13 @@ function add(num1, num2){
   
 function multiply(num1, num2){
     return num1 * num2;
-  }
+}
 
  // 🦁🦁🦁 Use greeting to accept a first and last name and return "Hello {first-name} {last-name}, nice to meet you!" 🦁🦁🦁
   
 function greeting(first, last){
    return `Hello ${first} ${last}, nice to meet you!`;
-  }
+}
   
   // 🦁🦁🦁 Step 3: Check your work by un-commenting the following calls to consume(): 🦁🦁🦁 
   // ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️
@@ -146,9 +146,13 @@ function greeting(first, last){
   
 // 🦁💪 Stretch: If you haven't already, convert your array method callbacks into arrow functions - make sure you comment out this section before you submit your work 🦁💪
  
+/*
+let add = (num1, num2) => num1 + num2;
 
+let multiply = (num1, num2) => num1 * num2;
 
-
+let greeting = (first, last) => `Hello ${first} ${last}, nice to meet you!`;
+*/
 
 // 🐴🐴🐴 Topic 3: Prototypes 🐴🐴🐴 //
 //🐴🐴🐴 Task: You are to build a cuboid maker that can return values for a cuboid's volume or surface area. Cuboids are similar to cubes but do not have even sides. Follow the steps in order to accomplish this challenge. 🐴🐴🐴
