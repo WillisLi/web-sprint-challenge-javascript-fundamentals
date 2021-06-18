@@ -17,7 +17,9 @@ myFunction();
 
 //🚀🚀🚀 ⬇️ 📝 Explanation ⬇️ 📝 🚀🚀🚀: 
 /*
-  The nested function can access internal due to closure. Because nested function is the inner function, it has access to variables outside of its scope, the lexical scope.
+  The nested function can access internal due to closure. Because nestedFunction is the inner function,
+  it has access and can reach out to variables outside of its scope, the lexical scope. For this example,
+  internal is not defined in the nestedFunction scope, so it looks outwards for the referenced variable.
 */
 
 
